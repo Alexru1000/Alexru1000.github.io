@@ -1,3 +1,69 @@
+@media only screen and (min-width : 720px) and (max-width : 1280px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+    div.layer {
+        background-color: whitesmoke;
+        padding: 5px;
+      }
+      p:first-letter {
+          font-size: 16px; /* Размер шрифта в пунктах */
+          font-weight: normal; /* Жирное начертание */
+          color: red; /* Красный цвет текста */
+      }
+      H2 {
+          font-size: 24px; /* Размер шрифта в пунктах */
+          font-weight: normal; /* Жирное начертание */
+          color: red;
+          text-align:  center;
+      }
+      
+      
+      p {
+          font-size: 13px; /* Размер шрифта в пикселях */
+          font-weight: normal; /* Жирное начертание */
+          color:black;
+      }
+    .layer {
+        overflow: scroll; /* Добавляем полосы прокрутки */
+        width: 360px; /* Ширина блока */
+        height: 640px; /* Высота блока */
+        padding: 1px; /* Поля вокруг текста */
+        border: solid 1px black; /* Параметры рамки */
+        }
+    
+    }
+
+@media only screen and (min-width : 720px) and (max-width : 1280px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+    div.layer {
+        background-color: whitesmoke;
+        padding: 5px;
+      }
+      p:first-letter {
+          font-size: 16px; /* Размер шрифта в пунктах */
+          font-weight: normal; /* Жирное начертание */
+          color: red; /* Красный цвет текста */
+      }
+      H2 {
+          font-size: 24px; /* Размер шрифта в пунктах */
+          font-weight: normal; /* Жирное начертание */
+          color: red;
+          text-align:  center;
+      }
+      
+      
+      p {
+          font-size: 13px; /* Размер шрифта в пикселях */
+          font-weight: normal; /* Жирное начертание */
+          color:black;
+      }
+    .layer {
+        overflow: scroll; /* Добавляем полосы прокрутки */
+        width: 1280px; /* Ширина блока */
+        height: 720px; /* Высота блока */
+        padding: 1px; /* Поля вокруг текста */
+        border: solid 1px black; /* Параметры рамки */
+        }
+    
+    }
+
 /* Samsung Galaxy S5 ----------- */ 
 @media only screen and (min-width : 360px) and (max-width : 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
     div.layer {
