@@ -1,4 +1,4 @@
-@media only screen and (min-width : 720px) and (max-width : 1280px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (min-width : 360px) and (max-width : 527px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
     div.layer {
         background-color: whitesmoke;
         padding: 5px;
@@ -24,14 +24,14 @@
     .layer {
         overflow: scroll; /* Добавляем полосы прокрутки */
         width: 360px; /* Ширина блока */
-        height: 640px; /* Высота блока */
+        height: 527px; /* Высота блока */
         padding: 1px; /* Поля вокруг текста */
         border: solid 1px black; /* Параметры рамки */
         }
     
     }
 
-@media only screen and (min-width : 720px) and (max-width : 1280px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (min-width : 360px) and (max-width : 527px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
     div.layer {
         background-color: whitesmoke;
         padding: 5px;
@@ -56,8 +56,8 @@
       }
     .layer {
         overflow: scroll; /* Добавляем полосы прокрутки */
-        width: 1280px; /* Ширина блока */
-        height: 720px; /* Высота блока */
+        width: 527px; /* Ширина блока */
+        height: 360px; /* Высота блока */
         padding: 1px; /* Поля вокруг текста */
         border: solid 1px black; /* Параметры рамки */
         }
